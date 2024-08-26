@@ -1,0 +1,17 @@
+[package]
+name = "concurrency"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+
+[[bin]]
+name = "condvar"
+path = "src/condvar.rs"
+
+[[bin]]
+name = "mutex"
+path = "src/mutex.rs"
+
+[dependencies]
