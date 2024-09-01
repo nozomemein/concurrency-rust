@@ -14,4 +14,15 @@ path = "src/condvar.rs"
 name = "mutex"
 path = "src/mutex.rs"
 
+[[bin]]
+name = "repeat"
+path = "src/repeat.rs"
+
+[[bin]]
+name = "epoll"
+path = "src/epoll.rs"
+
+
+
+
 [dependencies]
